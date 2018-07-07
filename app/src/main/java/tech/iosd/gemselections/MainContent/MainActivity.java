@@ -594,39 +594,22 @@ public class MainActivity extends AppCompatActivity
                 fragment = new MainGemstoneRecommendationFragment();
                 break;
 
-            case tech.iosd.gemselections.R.id.nav_ittar:
-                startActivity(
-                        new Intent(MainActivity.this, Ittar.class)
-                );
-                break;
 
-            case tech.iosd.gemselections.R.id.nav_japamala:
-                fragment = new MainJapaMalaFragment();
-                break;
+
+
 
             case R.id.nav_daily_horoscopes:
 //                fragment = new DailyHoroscopesFragment();
                 startActivity(new Intent(this, AstrologyActivity.class));
                 break;
 
-            case tech.iosd.gemselections.R.id.nav_stoneidols:
-                fragment = new MainStoneIdolFragment();
-                break;
 
-            case tech.iosd.gemselections.R.id.nav_kavach:
-                fragment = new MainKavachFragment();
-                break;
 
-            case tech.iosd.gemselections.R.id.nav_saphatic:
-                fragment = new MainSphatikFragment();
-                break;
 
-            case tech.iosd.gemselections.R.id.nav_handicrafts:
-                finish();
-                startActivity(
-                        new Intent(MainActivity.this, Handicrafts.class)
-                );
-                break;
+
+
+
+
 
             case tech.iosd.gemselections.R.id.nav_birthstone:
                 fragment = new MainBirthstoneFragment();
@@ -667,13 +650,9 @@ public class MainActivity extends AppCompatActivity
 
                 );
                 break;
-            case R.id.nav_sarva_mannokaamna_prapti_yugal:
-                fragment = new SarvaManokaamnaPraptiYugal();
-                break;
 
-            case tech.iosd.gemselections.R.id.nav_yantra:
-                fragment = new MainYantraFragment();
-                break;
+
+
 
             case tech.iosd.gemselections.R.id.nav_diamond:
                 fragment = new MainDiamondFragment();
@@ -754,6 +733,10 @@ public class MainActivity extends AppCompatActivity
                 startActivity(Intent.createChooser(sharingIntent, "Share Via.."));
                 break;
 
+            case tech.iosd.gemselections.R.id.spiritual_items:
+                Intent intent = new Intent(MainActivity.this,SpiritualItemsActivity.class);
+                startActivity(intent);
+                break;
             case tech.iosd.gemselections.R.id.nav_rate:
 
                 Uri uri1 = Uri.parse("market://details?id=tech.iosd.gemselections");

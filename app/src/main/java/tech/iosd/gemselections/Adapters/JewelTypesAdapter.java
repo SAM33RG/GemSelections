@@ -9,15 +9,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
 
-import tech.iosd.gemselections.DataProviders.JewelTypes;
 import tech.iosd.gemselections.JewelleryAlpha.DesignOwn.DesignOwnActivity;
 import tech.iosd.gemselections.JewelleryAlpha.Diamond.DiamondActivity;
-import tech.iosd.gemselections.JewelleryAlpha.DiamondStudded.DiamondStudded;
 import tech.iosd.gemselections.JewelleryAlpha.GemStudded.GemStuddedActivity;
 import tech.iosd.gemselections.JewelleryAlpha.Victorian.VictorianActivity;
 import tech.iosd.gemselections.R;
@@ -113,7 +110,7 @@ public class JewelTypesAdapter extends RecyclerView.Adapter<JewelTypesAdapter.Vi
             super(itemView);
 
             text = (TextView)itemView.findViewById(R.id.banner_name_tv);
-            mainImage = (ImageView) itemView.findViewById(R.id.banner_main_image);
+            mainImage = (ImageView) itemView.findViewById(R.id.khanna_permeries_banner_main_image);
             linearLayout = (CardView) itemView.findViewById(R.id.banner_cv);
         }
     }

@@ -449,13 +449,18 @@
         <activity android:name=".MainContent.PdfHoroscopeActivity" />
         <activity android:name=".MainContent.IndianAstrologyActivity" />
         <activity android:name=".abhimantrit.Panna" />
-        <activity android:name=".MainContent.MyAccountActivity"
+        <activity
+            android:name=".MainContent.MyAccountActivity"
             android:label="My Account"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainContent.SpiritualItemsActivity"
+            android:label="@string/title_activity_spiritual_items"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

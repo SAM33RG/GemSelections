@@ -18,8 +18,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import tech.iosd.gemselections.JewelleryAlpha.GemStudded.GemStuddedActivity;
-import tech.iosd.gemselections.JewelleryAlpha.Victorian.VictorianActivity;
 import tech.iosd.gemselections.MainContent.DailyHoroscopeActivity;
 import tech.iosd.gemselections.MainContent.IndianAstrologyActivity;
 import tech.iosd.gemselections.MainContent.MatchMakingActivity;
@@ -94,7 +92,7 @@ public class AstrologyAdapter extends RecyclerView.Adapter<tech.iosd.gemselectio
         public ViewHolder(View itemView) {
             super(itemView);
             text = itemView.findViewById(R.id.banner_name_tv);
-            mainImage = itemView.findViewById(R.id.banner_main_image);
+            mainImage = itemView.findViewById(R.id.khanna_permeries_banner_main_image);
             linearLayout = itemView.findViewById(R.id.banner_cv);
         }
     }

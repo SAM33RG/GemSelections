@@ -880,5 +880,10 @@ Zircon is found in the most metamorphic rocks as small crystals mostly widely di
     <string name="title_activity_astrology">AstrologyActivity</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_spiritual_items">Spiritual Items</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
 
 </resources>

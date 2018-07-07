@@ -23,7 +23,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/banner_main_image"
+                android:id="@+id/khanna_permeries_banner_main_image"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/list_view_banner_size"
                 android:layout_marginEnd="8dp"
@@ -35,12 +35,12 @@
                 app:srcCompat="@drawable/com_facebook_auth_dialog_cancel_background" />
 
             <View
-                android:id="@+id/view"
+                android:id="@+id/khanna_permeries_view"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:background="@color/banner_name_sttipe"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/banner_main_image" />
+                app:layout_constraintTop_toBottomOf="@+id/khanna_permeries_banner_main_image" />
 
             <TextView
                 android:id="@+id/banner_name_tv"
@@ -53,7 +53,7 @@
                 android:textSize="@dimen/banner_text_size"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/view" />
+                app:layout_constraintTop_toTopOf="@+id/khanna_permeries_view" />
 
 
         </android.support.constraint.ConstraintLayout>

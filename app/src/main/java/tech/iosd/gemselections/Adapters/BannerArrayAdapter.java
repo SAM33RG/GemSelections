@@ -31,7 +31,7 @@ public View getView(int position, View convertView, ViewGroup parent) {
         convertView = LayoutInflater.from(getContext()).inflate(R.layout.layout_banner, parent, false);
         }
 
-        ImageView mainImage = (ImageView) convertView.findViewById(R.id.banner_main_image);
+        ImageView mainImage = (ImageView) convertView.findViewById(R.id.khanna_permeries_banner_main_image);
         TextView name = (TextView) convertView.findViewById(R.id.banner_name_tv);
 
 

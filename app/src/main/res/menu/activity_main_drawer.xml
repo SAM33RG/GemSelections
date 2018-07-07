@@ -58,43 +58,21 @@
             android:id="@+id/nav_rudraksha"
             android:icon="@drawable/ic_rudraksha"
             android:title="Rudraksha" />
+        <!--new menu starts-->
+    </group>
+    <item android:title="Spiritual items">
+        <menu>
+
+
         <item
-            android:id="@+id/nav_handicrafts"
+            android:id="@+id/spiritual_items"
             android:icon="@drawable/ic_handicrafts"
-            android:title="Khanna Handicrafts" />
-        <item
-            android:id="@+id/nav_ittar"
-            android:icon="@drawable/ic_ittr"
-            android:title="Khanna Perfumeries" />
-        <item
-            android:id="@+id/nav_stoneidols"
-            android:icon="@drawable/ic_stoneidol"
-            android:title="Stone Idols" />
+            android:title="Spiritual Items" />
 
-        <item
-            android:id="@+id/nav_yantra"
-            android:icon="@drawable/ic_yantra"
-            android:title="Yantra" />
+    </menu>
 
-        <item
-            android:id="@+id/nav_saphatic"
-            android:icon="@drawable/ic_saphatikitems"
-            android:title="Saphatic Items" />
-
-        <item
-            android:id="@+id/nav_japamala"
-            android:icon="@drawable/ic_japa_mala"
-            android:title="Japa Mala" />
-
-        <item
-            android:id="@+id/nav_kavach"
-            android:icon="@drawable/ic_kavach"
-            android:title="Kavach" />
-        <item
-            android:id="@+id/nav_sarva_mannokaamna_prapti_yugal"
-            android:icon="@drawable/ic_yugal"
-            android:title="Sarva Mannokaamna Prapti Yugal" />
-
+    </item>
+    <group>
 
         <item
             android:id="@+id/nav_faq"
