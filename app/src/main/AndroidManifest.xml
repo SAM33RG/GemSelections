@@ -457,10 +457,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainContent.SpiritualItemsActivity"
-            android:label="@string/title_activity_spiritual_items"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
