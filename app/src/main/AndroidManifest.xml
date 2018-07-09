@@ -462,6 +462,10 @@
             android:theme="@android:style/Theme.Holo.Light.Dialog"
             >
         </activity>
+        <activity
+            android:name=".MainContent.SpiritualItemsActivity"
+            android:label="@string/title_activity_spiritual_items"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -25,7 +25,7 @@
         <item
             android:id="@+id/nav_daily_recommendations"
             android:icon="@drawable/ic_daily_recommendations"
-            android:title="Daily Recommendations" />
+            android:title="Today’s Update" />
 
         <item android:title="Abhimantrit"
             android:id="@+id/nav_abhimantrit"
@@ -33,7 +33,7 @@
         <item
             android:id="@+id/nav_daily_horoscopes"
             android:icon="@drawable/ic_daily_recommendations"
-            android:title="Daily Horoscopes"/>
+            android:title="Gem Selections™ Astro Dose"/>
         <item
             android:id="@+id/nav_cabochon_gems"
             android:icon="@drawable/ic_cabochon"

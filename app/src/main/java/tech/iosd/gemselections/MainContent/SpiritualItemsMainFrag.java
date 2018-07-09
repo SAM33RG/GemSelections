@@ -21,6 +21,7 @@ import tech.iosd.gemselections.R;
  */
 public class SpiritualItemsMainFrag extends Fragment implements View.OnClickListener {
 
+    private View khannaHandicraft,KhannaPerfumeries, stoneIdols, yantra, saphatic, japa, kavach, sarva;
 
     public SpiritualItemsMainFrag() {
         // Required empty public constructor
@@ -31,9 +32,38 @@ public class SpiritualItemsMainFrag extends Fragment implements View.OnClickList
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         fragmentManager = getActivity().getSupportFragmentManager();
-        return inflater.inflate(R.layout.fragment_spiritual_items_main, container, false);
+        View view =  inflater.inflate(R.layout.fragment_spiritual_items_main, container, false);
+
+        sarva = view.findViewById(R.id.saphatic_banner_cv);
+        sarva.setOnClickListener(this);
+
+        kavach = view.findViewById(R.id.kavach_banner_cv);
+        kavach.setOnClickListener(this);
+
+        japa = view.findViewById(R.id.japa_banner_cv);
+        japa.setOnClickListener(this);
+
+        saphatic = view.findViewById(R.id.saphatic_banner_cv);
+        saphatic.setOnClickListener(this);
+
+        yantra = view.findViewById(R.id.yantra_banner_cv);
+        yantra.setOnClickListener(this);
+
+        khannaHandicraft = view.findViewById(R.id.khanna_handicraft);
+        khannaHandicraft.setOnClickListener(this);
+
+        KhannaPerfumeries = view.findViewById(R.id.khanna_permeries_banner_cv);
+        KhannaPerfumeries.setOnClickListener(this);
+
+        stoneIdols = view.findViewById(R.id.stone_idols_banner_cv);
+        stoneIdols.setOnClickListener(this);
+
+
+
+
+        return view;
     }
 
 

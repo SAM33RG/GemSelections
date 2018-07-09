@@ -50,7 +50,7 @@ public class MoongaActivity extends YouTubeBaseActivity implements View.OnClickL
         buy_coral.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
-                    public void onClick(View v) {
+                      public void onClick(View v) {
                         startActivity(
                                 new Intent(MoongaActivity.this, WebViewActivity.class)
                                         .putExtra("URL","http://khannagems.com/index.php/gem-stones/moonga.html")
