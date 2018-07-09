@@ -53,17 +53,22 @@ import tech.iosd.gemselections.abhimantrit.Abhimantrit;
 
 public class MyAccountActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
+    private Button  _login, _logout, _myAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_account);
 
+
+
         Autopilot autopilot = new Autopilot();
         autopilot.allowEarlyTakeOff(getApplicationContext());
 
         Toolbar toolbar = findViewById(tech.iosd.gemselections.R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
 
 
         final DrawerLayout drawer = findViewById(tech.iosd.gemselections.R.id.drawer_layout);
@@ -79,6 +84,15 @@ public class MyAccountActivity extends AppCompatActivity implements NavigationVi
         header.setPadding(10, 10, 10, 10);
 
         display_selected_item(tech.iosd.gemselections.R.id.nav_home);
+
+        _login = (Button) findViewById(tech.iosd.gemselections.R.id.main_login);
+        _logout = (Button) findViewById(tech.iosd.gemselections.R.id.main_logout);
+        _myAccount =  (Button) findViewById(R.id.main_my_account);
+
+
+/*        _login.setVisibility(View.VISIBLE);
+        _logout.setVisibility(View.VISIBLE);
+        _myAccount.setVisibility(View.GONE);*/
 
 
     }

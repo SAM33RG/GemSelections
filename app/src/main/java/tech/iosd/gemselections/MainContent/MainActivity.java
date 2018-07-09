@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity
 
     private View header;
     private TextView _displayName, _displayEmail;
-    private Button _login, _logout;
+   // private Button _login, _logout, _myAccount;
 
     private boolean ISHOMESHOWN;
     private FirebaseAuth mAuth;
@@ -114,21 +114,25 @@ public class MainActivity extends AppCompatActivity
         header.setPadding(10, 10, 10, 10);
         _displayName = (TextView) header.findViewById(tech.iosd.gemselections.R.id.DisplayName);
         _displayEmail = (TextView) header.findViewById(tech.iosd.gemselections.R.id.DisplayEmail);
-        _login = (Button) header.findViewById(tech.iosd.gemselections.R.id.main_login);
+        /*_login = (Button) header.findViewById(tech.iosd.gemselections.R.id.main_login);
         _logout = (Button) header.findViewById(tech.iosd.gemselections.R.id.main_logout);
-        _logout.setEnabled(false);
+        _myAccount =  (Button) header.findViewById(R.id.main_my_account);
+        _logout.setEnabled(false);*/
         final Intent intent = getIntent();
         if (intent.hasExtra("GoogleUserName")) {
             Bundle extras = getIntent().getExtras();
             _displayName.setText(extras.getString("GoogleUserName"));
             _displayEmail.setText(extras.getString("GoogleEmail"));
-            _login.setEnabled(false);
+            /*_login.setEnabled(false);
             _logout.setEnabled(true);
+            _myAccount.setVisibility(View.VISIBLE);
+            _login.setVisibility(View.GONE);
+            _logout.setVisibility(View.GONE);*/
             k = 1;
 
         }
 
-        _logout.setOnClickListener(new View.OnClickListener() {
+        /*_logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -137,7 +141,9 @@ public class MainActivity extends AppCompatActivity
 
                     _login.setEnabled(true);
                     _logout.setEnabled(false);
-
+                    _myAccount.setVisibility(View.GONE);
+                    _login.setVisibility(View.VISIBLE);
+                    _logout.setVisibility(View.VISIBLE);
                     _displayName.setText("Gem Selections");
                     _displayEmail.setText("(A Unit of khanna Gems Pvt. Limited)");
                     drawer.closeDrawers();
@@ -160,19 +166,33 @@ public class MainActivity extends AppCompatActivity
                 );
             }
         });
+        _myAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(
+                        new Intent(MainActivity.this, MyAccountActivity.class)
+                );
+            }
+        });*/
         if (k == 0) {
             if (mUser != null) {
                 _displayName.setText(mUser.getDisplayName());
                 _displayEmail.setText(mUser.getEmail());
-                _login.setEnabled(false);
-                _logout.setEnabled(true);
+                //_login.setEnabled(false);
+                //_logout.setEnabled(true);
+                //_myAccount.setVisibility(View.VISIBLE);
+                //_login.setVisibility(View.VISIBLE);// TODO: change this View.GONE when my account is complete
+                //_logout.setVisibility(View.VISIBLE);// TODO: change this View.GONE when my account is complete
             } else {
+                /*_myAccount.setVisibility(View.GONE);
+                _login.setVisibility(View.VISIBLE);
+                _logout.setVisibility(View.VISIBLE);
                 if (!_login.isEnabled()) {
                     _login.setEnabled(true);
                 }
                 if (_logout.isEnabled()) {
                     _logout.setEnabled(false);
-                }
+                }*/
             }
         }
 
@@ -567,6 +587,11 @@ public class MainActivity extends AppCompatActivity
 
         ISHOMESHOWN = id == tech.iosd.gemselections.R.id.nav_home;
         switch (id) {
+            case R.id.my_account:
+                startActivity(
+                        new Intent(MainActivity.this, MyAccountActivity.class)
+                );
+                break;
             case R.id.nav_abhimantrit:
                 fragment = new Abhimantrit();
                 break;
