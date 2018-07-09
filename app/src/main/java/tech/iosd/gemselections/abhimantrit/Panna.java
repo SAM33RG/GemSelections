@@ -6,6 +6,8 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.widget.Toast;
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -14,17 +16,19 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayer.OnFullscreenListener;
 import com.google.android.youtube.player.YouTubePlayer.OnInitializedListener;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
+import com.google.android.youtube.player.YouTubePlayerFragment;
+import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 import tech.iosd.gemselections.R;
 
 public class Panna
-        extends YouTubeBaseActivity
+        extends AppCompatActivity
         implements YouTubePlayer.OnInitializedListener
 {
     private static final String DEVELOPER_KEY = "AIzaSyBKlHdEkS-X7Vb2mW2qQSlF1TOxKzWpSU8";
     private static final int RECOVERY_REQUEST = 1;
-    YouTubePlayerView playerView;
+    YouTubePlayerFragment playerView;
     private int x;
 
     public Panna() {}
@@ -33,8 +37,27 @@ public class Panna
     {
         super.onCreate(paramBundle);
         setContentView(R.layout.activity_panna);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         x = getIntent().getIntExtra("V", 1);
-        playerView = ((YouTubePlayerView)findViewById(R.id.panna_video));
+        switch (x){
+            case 1:
+
+                getSupportActionBar().setTitle("Panna");
+                break;
+            case 2:
+                getSupportActionBar().setTitle("Neelam");
+
+                break;
+            case 3:
+                getSupportActionBar().setTitle("Pukhraj");
+
+                break;
+        }
+        playerView =
+                (YouTubePlayerFragment) getFragmentManager()
+                        .findFragmentById(R.id.panna_video);//((YouTubePlayerSupportFragment)findViewById(R.id.panna_video));
         playerView.initialize("AIzaSyBKlHdEkS-X7Vb2mW2qQSlF1TOxKzWpSU8", this);
     }
 

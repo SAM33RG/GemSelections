@@ -448,7 +448,10 @@
         <activity android:name=".MainContent.DailyHoroscopeActivity" />
         <activity android:name=".MainContent.PdfHoroscopeActivity" />
         <activity android:name=".MainContent.IndianAstrologyActivity" />
-        <activity android:name=".abhimantrit.Panna" />
+        <activity android:name=".abhimantrit.Panna"
+            android:label="Abhimantrit"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
         <activity
             android:name=".MainContent.MyAccountActivity"
             android:label="My Account"
