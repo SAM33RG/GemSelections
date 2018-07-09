@@ -81,7 +81,8 @@
         <item
             android:id="@+id/nav_forum"
             android:icon="@drawable/ic_forum"
-            android:title="Join the Gem Selections™ Forums" />
+
+            android:title="Join the Gem Selections™ Forums blah blah balafdsjfioasiodfhdhioihdiohasdfhsdfoiasdhfasdiofhios" />
         <item
             android:id="@+id/nav_live"
             android:icon="@drawable/ic_live"

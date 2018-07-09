@@ -457,6 +457,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Rudraksha.YoutubeDialogActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog"
+            >
+        </activity>
     </application>
 
 </manifest>

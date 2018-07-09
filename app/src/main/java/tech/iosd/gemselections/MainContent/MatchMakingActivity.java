@@ -23,7 +23,7 @@ public class MatchMakingActivity extends AppCompatActivity {
 
         fragmentManager.beginTransaction()
                 .add(R.id.match_making_container, new MatchMakingListFragment())
-                .addToBackStack("Main")
+//                .addToBackStack("Main")
                 .commit();
     }
 

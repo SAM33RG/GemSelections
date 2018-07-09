@@ -276,6 +276,231 @@
                 android:text="@string/faq15"/></LinearLayout>
 
         </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq1718"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq17"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq1920"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq19"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq2122"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq21"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq2324"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq23"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq2526"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq25"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq2728"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq27"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq2930"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq29"/></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/faq3132"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#f9f3f3"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark2"
+                        android:text="@string/faq31"/></LinearLayout>
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>

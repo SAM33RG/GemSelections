@@ -138,7 +138,6 @@ public class WesternDataCollectorOneFragment extends Fragment {
 
                         switch (i) {
                             case 0:
-                                //todo houseRecyclerView.setNestedScrollingEnabled(false); add this to all layout to hassle free scrolling
                                 setFragment(new WesternHoroscopeFragment());
                                 break;
                             case 1:

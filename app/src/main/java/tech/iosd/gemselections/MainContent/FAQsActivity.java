@@ -30,11 +30,11 @@ public class FAQsActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         super.onCreate(savedInstanceState);
         setContentView(tech.iosd.gemselections.R.layout.activity_faqs);
         r = getResources();
-        int Number_of_Faqs = 8;
+        int Number_of_Faqs = 16;
         for (int i = 1;i<(Number_of_Faqs*2);i+=2)
             initialise_faq(i);
 
-        toolbar = (android.widget.Toolbar) findViewById(R.id.faq_toolbar);
+        toolbar =  findViewById(R.id.faq_toolbar);
         setActionBar(toolbar);
         getActionBar().setDisplayHomeAsUpEnabled(true);
 
